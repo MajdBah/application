@@ -1,0 +1,212 @@
+@font-face {
+    font-family: cairofont;
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+
+body {
+    direction: rtl;
+    font-family: cairofont;
+}
+
+header {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.brand {
+    padding: 20px 10px;
+    margin: 80px auto 50px;
+    border-bottom: solid 5px #474c55;
+    display: inline-block;
+}
+
+header h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+header p {
+    color: #acacac;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.countdown-amount {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffce00;
+    display: block;
+}
+
+.countdown-period {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+.countdown-section {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.counter {
+    margin: 60px auto;
+    padding: 30px;
+}
+
+.email-form p {
+    color: white;
+    font-size: 18px;
+}
+
+.input-group input {
+    font-size: 18px;
+    color: #e6e6e6;
+    border: solid 2px #e6e6e6;
+    border-radius: 0px;
+    height: 60px;
+}
+
+.send-btn {
+    background-color: #ffce00;
+    border-radius: 0px !important;
+    padding: .5rem 1.5rem;
+    height: 60px;
+}
+
+.input-group {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.email-form .alert {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.features h2 {
+    color: #555;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+.features {
+    padding: 100px 0px;
+}
+
+.media {
+    border: solid 4px #fafafa;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+    position: relative;
+    max-height: 190px;
+}
+
+.media-body h5 {
+    color: #555;
+    font-size: 24px;
+}
+
+.media-body p {
+    color: #a1a1a1;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+section.features div[class*="col-"]:nth-child(even) {
+    text-align: left !important;
+}
+
+footer {
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-footer .overlay {
+    background-color: rgb(255, 204, 0, 0.7);
+    opacity: 0.9;
+    padding: 60px 0;
+}
+
+.top-footer .overlay h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.send-btn-footer {
+    background-color: #393939;
+    border-radius: 0px !important;
+    padding: .5rem 1.5rem;
+    height: 60px;
+}
+
+footer .contact .overlay {
+    background-color: rgb(28, 28, 28, 0.9);
+    opacity: 0.7;
+    padding: 60px 10px;
+    color: white;
+}
+
+.contact ul li a {
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    display: block;
+    background-color: rgba(255, 255, 255, .14);
+    color: white;
+    font-size: 1.2em;
+}
+
+.contact ul li a:hover {
+    background-color: #ffce00;
+    color: #393939;
+}
+
+.contact ul li {
+    margin: 0px 5px;
+}
+
+.contact hr {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    width: 25%;
+    margin-top: 50px;
+}
+
+.contact p a {
+    color: #b4b4b4;
+}
+
+.contact p i {
+    color: #fad32f;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+    .input-group {
+        width: 90%;
+    }
+
+    .countdown-section {
+        font-size: 25px;
+    }
+
+    .countdown-period {
+        font-size: 20px;
+    }
+
+    .countdown-amount {
+        font-size: 25px;
+    }
+
+    .countdown-section {
+        margin: 0 10px;
+    }
+}
